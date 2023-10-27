@@ -1,6 +1,6 @@
 template-file-path: cfn-template.yaml
 parameters:
-	MyOutput: Nice
+	MyOutput: Nice1
 tags:
 	funKey: NiceValue
 
