@@ -1,12 +1,12 @@
 Parameters:
-	MyOutput:
-		Type: String
+  MyOutput:
+    Type: String
 
 Resources:
-    NullResource:
-        Type: AWS::CloudFormation::WaitConditionHandle
+  NullResource:
+    Type: AWS::CloudFormation::WaitConditionHandle
 
 Outputs:
-    MyOutput:
-	Value: !Ref MyOutput
+  MyOutput:
+    Value: !Ref MyOutput
 
