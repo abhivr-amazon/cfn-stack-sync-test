@@ -2,6 +2,7 @@ Parameters:
   MyOutput:
     Type: String
 
+
 Resources:
   NullResource:
     Type: AWS::CloudFormation::WaitConditionHandle
