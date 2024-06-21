@@ -3,8 +3,120 @@ Parameters:
     Type: String
 
 Resources:
-  NullResource:
-    Type: AWS::CloudFormation::WaitConditionHandle
+  MyParameter1:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter2:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter3:
+    Type: AWS::SSM::Parameter
+    Properties4:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter5:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter6:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter7:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter8:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter9:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter10:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter11:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter12:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter13:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter14:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter15:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter16:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter17:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter18:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter19:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
+  MyParameter20:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Name: param1
+      Type: String
+      Value: MyOutput
 
 Outputs:
   MyOutput:
